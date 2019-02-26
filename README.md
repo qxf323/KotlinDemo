@@ -1,2 +1,0 @@
-# KotlinDemo
-KotlinDemo

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchMatch.Vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100.0dip"
+            android:orientation="horizontal"
+            >
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/mUserIconIv"
+                android:layout_width="@dimen/common_icon_width"
+                android:layout_height="@dimen/common_icon_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:src="@drawable/icon_default_user"/>
+        <TextView
+                android:id="@+id/mUserNameTv"
+                style="@style/WrapWrap"
+                android:textSize="@dimen/text_big_size"
+                android:textColor="@color/common_white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="@string/un_login_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MatchWrap.Horizontal"
+        android:background="@drawable/border_bottom"
+        android:paddingTop="@dimen/common_padding_middle"
+        android:paddingBottom="@dimen/common_padding_middle">
+
+        <TextView
+            android:id="@+id/mWaitPayOrderTv"
+            style="@style/MeOrderLabelStyle"
+            android:drawableTop="@drawable/icon_order_wait_pay"
+            android:text="签到" />
+
+        <TextView
+            android:id="@+id/mWaitConfirmOrderTv"
+            style="@style/MeOrderLabelStyle"
+            android:drawableTop="@drawable/icon_order_wait_confirm"
+            android:text="关注" />
+
+        <TextView
+            android:id="@+id/mCompleteOrderTv"
+            style="@style/MeOrderLabelStyle"
+            android:drawableTop="@drawable/icon_order_completed"
+            android:text="粉丝" />
+
+        <View style="@style/DividerFixedWidth" />
+
+        <TextView
+            android:id="@+id/mAllOrderTv"
+            style="@style/MeOrderLabelStyle"
+            android:drawableTop="@drawable/icon_order"
+            android:text="我的订单"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mAddressTv"
+        style="@style/MeItemStyle"
+        android:layout_marginTop="@dimen/common_margin"
+        android:background="@drawable/border_all"
+        android:drawableLeft="@drawable/icon_address"
+        android:text="我的点赞" />
+
+    <TextView
+        android:id="@+id/mShareTv"
+        style="@style/MeItemStyle"
+        android:drawableLeft="@drawable/icon_share"
+        android:text="我的评论" />
+
+    <TextView
+        android:id="@+id/mFavoritev"
+        style="@style/MeItemStyle"
+        android:drawableLeft="@drawable/icon_setting"
+        android:text="我的收藏" />
+
+    <TextView
+        android:id="@+id/mSettingTv"
+        style="@style/MeItemStyle"
+        android:drawableLeft="@drawable/icon_setting"
+        android:text="我的想去" />
+
+
+
+    <TextView
+        android:id="@+id/mbaom"
+        style="@style/MeItemStyle"
+        android:drawableLeft="@drawable/icon_setting"
+        android:text="我的想去" />
+
+
+
+    <TextView
+        android:id="@+id/mFeedbackTv"
+        android:layout_marginTop="50dp"
+        style="@style/MeItemStyle"
+        android:drawableLeft="@drawable/icon_setting"
+        android:text="意见反馈" />
+
+
+    <TextView
+        android:id="@+id/mSystemSettingsTv"
+        style="@style/MeItemStyle"
+        android:drawableLeft="@drawable/icon_setting"
+        android:text="系统设置" />
+
+</LinearLayout>

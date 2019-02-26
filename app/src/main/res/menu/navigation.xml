@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_selector"
+        android:title="@string/nav_bar_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/singin_selector"
+        android:title="@string/nav_bar_category" />
+
+    <item
+        android:id="@+id/navigation_center"
+        android:icon="@null"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/message_selector"
+        android:title="@string/nav_bar_msg" />
+
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@drawable/me_selector"
+        android:title="@string/nav_bar_user" />
+
+</menu>
